@@ -9,35 +9,32 @@
 </div>
 <div class="container">
   <div class="row">
-    <div class="col-sm">
-        <table class="table">
-            <tr>
-            <th>Id</th>
-            <th>Nombre</th>
-            <th>Imagen</th>
-            <th>Descripcion</th>
-            <th>Precio</th>
-            <th>Celular</th>
-            <th>Lugar de Compra</th>
-            <th>usuario</th>
-            </tr>
-            @foreach (var lproductos in Model)
-            {
-                <tr>
-            <td>@lproductos.id</td>
-            <td>@lproductos.nombre</td>
-            <td>@lproductos.imagen</td>
-            <td>@lproductos.descripcion</td>
-            <td>@lproductos.precio</td>
-            <td>@lproductos.precio</td>
-            <td>@lproductos.lugarcompra</td>
-            <td>@lproductos.usuario</td>
-            </tr>
-                
-            }
-            
+      <div class="container">
+        <div class="row">
 
-        </table>
-      
+          @foreach (var productos in Model)
+        {
+
+
+        <div class="col-sm">
+            <div class="card" style="width: 18rem;">
+              <img src="@productos.imagen" class="card-img-top" width="200"px height="250"px>
+              <div class="card-body">
+                <h5 class="card-title">@productos.nombre</h5>
+
+                <label>Descripcion:@productos.descripcion</label><br>
+                <label>Precio:@productos.precio</label><br>
+                <label>Celular:@productos.celular</label><br>
+                <label>Lugar:@productos.lugarcompra</label><br>
+                <label>Usuario:@productos.usuario</label><br>
+              </div>
+            </div>
+
+        </div>
+
+ 
+
+
+        }
+        </div>
     </div>
-    
