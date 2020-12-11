@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gNvCXod/0vIKGccqTctNA3kxJ6GA3txJfPdQfltmZdqzetd3qOpFfTD9iIjcpX4ZXcRJF8zkeSWwRLVqKTFZwQ==",
+  "dgSpecHash": "gfDikQE/z2IlCJ6QIlD7+FXabfOkoNsQLUJR8/rMvfEzUF3m2E6Mah1bduJaJzP8UReGDX7sxoo4qmgYf2zFIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PERSONAL\\Desktop\\Progra 1\\Practica 3\\PC-03\\PC-03.csproj",
+  "projectFilePath": "C:\\Users\\PERSONAL\\Desktop\\Progra 1\\Practica 03\\PC-03\\PC-03.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PERSONAL\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.1\\microsoft.entityframeworkcore.5.0.1.nupkg.sha512",
     "C:\\Users\\PERSONAL\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.1\\microsoft.entityframeworkcore.abstractions.5.0.1.nupkg.sha512",

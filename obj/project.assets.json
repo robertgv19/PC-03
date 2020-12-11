@@ -560,11 +560,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PERSONAL\\Desktop\\Progra 1\\Practica 3\\PC-03\\PC-03.csproj",
+      "projectUniqueName": "C:\\Users\\PERSONAL\\Desktop\\Progra 1\\Practica 03\\PC-03\\PC-03.csproj",
       "projectName": "PC-03",
-      "projectPath": "C:\\Users\\PERSONAL\\Desktop\\Progra 1\\Practica 3\\PC-03\\PC-03.csproj",
+      "projectPath": "C:\\Users\\PERSONAL\\Desktop\\Progra 1\\Practica 03\\PC-03\\PC-03.csproj",
       "packagesPath": "C:\\Users\\PERSONAL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PERSONAL\\Desktop\\Progra 1\\Practica 3\\PC-03\\obj\\",
+      "outputPath": "C:\\Users\\PERSONAL\\Desktop\\Progra 1\\Practica 03\\PC-03\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PERSONAL\\AppData\\Roaming\\NuGet\\NuGet.Config"
