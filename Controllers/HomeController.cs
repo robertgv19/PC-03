@@ -26,6 +26,14 @@ namespace PC_03.Controllers
             var productos = _context.Productos.ToList();
             return View(productos);
         }
+
+        [HttpPost]
+        public IActionResult Eliminar(int id){
+            var productos = _context.Productos.FirstOrDefault(x => x.id == id);
+            _context.Remove(productos);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
          public IActionResult Producto()
         {
             return View();
